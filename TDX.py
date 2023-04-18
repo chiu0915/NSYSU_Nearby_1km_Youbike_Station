@@ -13,9 +13,15 @@ client_id = 'XXXXX-XXXXXXXX-XXXX-XXXX'
 client_secret = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
 
 token_url="https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token"
-#以下網址列中，包含國立中山大學幾何中心座標：22.62752590909029,120.26465291318681
-AVAILABILITY_URL = "https://tdx.transportdata.tw/api/advanced/v2/Bike/Availability/NearBy?%24top=30&%24spatialFilter=nearby%2822.62752590909029%2C%20120.26465291318681%2C%201000%29&%24format=JSON"
-STATION_URL = "https://tdx.transportdata.tw/api/advanced/v2/Bike/Station/NearBy?%24top=30&%24spatialFilter=nearby%2822.62752590909029%2C%20120.26465291318681%2C%201000%29&%24format=JSON"
+base_url = "https://tdx.transportdata.tw/api/advanced/v2/Bike"
+availability_endpoint = "/Availability/NearBy"
+station_endpoint = "/Station/NearBy"
+top = "30"  # 前30組資料
+#國立中山大學幾何中心座標：
+lat = "22.62752590909029"
+lng = "120.26465291318681"
+AVAILABILITY_URL = f"{base_url}{availability_endpoint}?%24top={top}&%24spatialFilter=nearby%28{lat}%2C%20{lng}%2C%201000%29&%24format=JSON"
+STATION_URL = f"{base_url}{station_endpoint}?%24top={top}&%24spatialFilter=nearby%28{lat}%2C%20{lng}%2C%201000%29&%24format=JSON"
 
 class TDX():
 
