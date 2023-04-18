@@ -94,11 +94,11 @@ if __name__ == '__main__':
                 else:# 如果檔案不存在，就創建一個新檔案並寫入欄位名稱
                     df_result.to_csv(csv_path, mode='a', index=True)
                 print(f"Data collected at {datetime.datetime.now()}")
-                time.sleep(300)
+                time.sleep(600)
             except Exception as e:
                 # 印出錯誤訊息
                 print(f"Error occurred: {e}")
-                time.sleep(300)
+                time.sleep(600)
     
 
         
