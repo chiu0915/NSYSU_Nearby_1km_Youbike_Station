@@ -13,6 +13,7 @@ https://github.com/tdxmotc/SampleCode
 
 匯出表格如下：
 |Column1|	StationID|	StationName|	StationAddress|	BikesCapacity|	AvailableRentBikes|	ElectricBikes|	GeneralBikes|	AvailableReturnBikes|	UpdateTime|
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 |0|	501209024|	YouBike2.0_濱海臨海路口(西南側)|	濱海二路/臨海二路口(西南側人行道)|	22|	3|	0|	3|	19|	2023/4/18 19:39|
 |1|	501209036|	YouBike2.0_一號船渠景觀橋|	濱海二路12號旁人行道|	16|	12|	0|	12|	4|	2023/4/18 19:39|
 |2|	501209039|	YouBike2.0_中山大學社科院|	中山大學社會科學院與管理學院間人行道|	30|	0|	0|	0|	29|	2023/4/18 19:39|
