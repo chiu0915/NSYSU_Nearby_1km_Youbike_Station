@@ -1,4 +1,4 @@
-# NSYSU_nearby_1km_Youbike_station
+# NSYSU_Nearby_1km_Youbike_Station
 此程式將會每隔10分鐘自動抓取TDX資料，以國立中山大學幾何中心半徑1公里內的Youbike站點為例。
 ![image](https://github.com/chiu0915/NSYSU_nearby_1km_Youbike_station/blob/main/Youbike%E7%AB%99%E9%BB%9E%E3%80%81%E6%A0%A1%E5%9C%B0%E7%AF%84%E5%9C%8D%E3%80%81%E5%B9%BE%E4%BD%95%E4%B8%AD%E5%BF%83(300px).png)
 
