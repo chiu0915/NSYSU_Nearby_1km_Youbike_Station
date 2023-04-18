@@ -2,15 +2,15 @@
 此程式將會每隔10分鐘自動抓取TDX資料，以國立中山大學幾何中心半徑1公里內的Youbike站點為例。
 ![image](https://github.com/chiu0915/NSYSU_nearby_1km_Youbike_station/blob/main/Youbike%E7%AB%99%E9%BB%9E%E3%80%81%E6%A0%A1%E5%9C%B0%E7%AF%84%E5%9C%8D%E3%80%81%E5%B9%BE%E4%BD%95%E4%B8%AD%E5%BF%83(300px).png)
 
-API 呼叫次數限制：
-使用 API 金鑰呼叫，每個呼叫來源端 IP 呼叫次數限制為 50 次/秒 (無每日上限)。
-不使用 API 金鑰呼叫，則僅能透過瀏覽器呼叫 API，且每個呼叫來源端 IP 的上限為每日 50 次。
-因為本程式需每10分鐘呼叫一次，使用者須自行註冊會員，以取得金鑰。
+API 呼叫次數限制：  
+使用 API 金鑰呼叫，每個呼叫來源端 IP 呼叫次數限制為 50 次/秒 (無每日上限)。  
+不使用 API 金鑰呼叫，則僅能透過瀏覽器呼叫 API，且每個呼叫來源端 IP 的上限為每日 50 次。  
+因為本程式需每10分鐘呼叫一次，使用者須自行註冊會員，以取得金鑰。  
 
-#參考網址
-https://blog.jiatool.com/posts/tdx_python/
-#官方的說明文件
-https://github.com/tdxmotc/SampleCode
+#參考網址  
+https://blog.jiatool.com/posts/tdx_python/  
+#官方的說明文件  
+https://github.com/tdxmotc/SampleCode  
 
 匯出表格如下：
 |Column1|	StationID|	StationName|	StationAddress|	BikesCapacity|	AvailableRentBikes|	ElectricBikes|	GeneralBikes|	AvailableReturnBikes|	UpdateTime|
