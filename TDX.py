@@ -9,8 +9,8 @@ import csv
 import os
 
 #透過註冊TDX會員，獲取以下必要資料
-client_id = ''
-client_secret = ''
+client_id = 'XXXXX-XXXXXXXX-XXXX-XXXX'
+client_secret = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
 
 token_url="https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token"
 #以下網址列中，包含國立中山大學幾何中心座標：22.62752590909029,120.26465291318681
